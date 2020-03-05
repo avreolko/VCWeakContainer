@@ -1,5 +1,5 @@
 # VCWeakContainer
-Generic container with weak link inside
+Generic container with weak link inside.
 Can be useful when you need array of weak links 👦🏻
 
 ## Usage example
