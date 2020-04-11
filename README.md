@@ -1,8 +1,11 @@
 # VCWeakContainer
-Generic container with weak link inside.
-Can be useful when you need array of weak links 👦🏻
+A generic container with weak references to its contents.
+Can be useful when you need an array of weak references 👦🏻
 
-## Usage example
+## Installation
+Install with SPM 📦
+
+## Usage
 ```swift
 var array = [Weak<NSString>]()
 
@@ -17,6 +20,3 @@ string = nil
 
 print(array.map { $0.object }.compactMap { $0 }.count) // 0
 ```
-
-## Installation
-For now VCWeakContainer supports installation through SPM 📦
