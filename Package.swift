@@ -24,5 +24,9 @@ let package = Package(
             name: "VCWeakContainer",
             dependencies: [],
             path: "Sources"),
+        .testTarget(
+            name: "VCWeakContainerTests",
+            dependencies: ["VCWeakContainer"],
+            path: "Tests"),
     ]
 )
