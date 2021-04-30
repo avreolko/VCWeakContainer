@@ -1,3 +1,5 @@
+[![Tests](https://github.com/avreolko/VCWeakContainer/workflows/Tests/badge.svg?branch=master)](https://github.com/avreolko/VCWeakContainer/actions/workflows/tests.yml)
+
 # VCWeakContainer
 A generic container with weak references to its contents.
 Can be useful when you need an array of weak references 👦🏻
