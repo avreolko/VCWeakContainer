@@ -22,3 +22,6 @@ string = nil
 
 print(array.map { $0.object }.compactMap { $0 }.count) // 0
 ```
+
+## License ##
+This project is released under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
